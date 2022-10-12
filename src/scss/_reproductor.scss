@@ -1,0 +1,39 @@
+.videos{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+}
+.reproductor{
+    width: 500px;
+    height: 350px;
+    position: relative;
+    @media(max-width:500px){
+        width: 250px;
+        height: 175px;
+    }
+
+    iframe{
+        width: inherit;
+        height: inherit;
+    }
+    div{
+        width: inherit;
+        height: inherit;
+        img{
+            width: inherit;
+            height: inherit
+        }
+        button{
+            position: absolute;
+            transform: translate(-50%,-50%);
+            top:94%;
+            left: 50%;
+            border: 0;
+            font-size: 32px;
+            background-color: transparent;
+            color: white;
+        }
+    };
+}

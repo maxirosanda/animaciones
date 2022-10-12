@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+body{
+  overflow-x: hidden;
+}
+
+object {
+  width: 100vw;
+}
+
+
+@font-face {
+    font-family: 'fontAwesome';
+    src: url('../../assets/fonts/fontAwesome/fa-v4compatibility.ttf') format('truetype');
+  }
+  @font-face {
+    font-family: 'fontAwesomeSolid';
+    src: url('../../assets/fonts/fontAwesome/fa-solid-900.ttf') format('truetype');
+  }
+  @font-face {
+    font-family: 'fontAwesomeRegular';
+    src: url('../../assets/fonts/fontAwesome/fa-regular-400.ttf') format('truetype');
+  }
+  @font-face {
+    font-family: 'fontAwesomeBrands';
+    src: url('../../assets/fonts/fontAwesome/fa-brands-400.ttf') format('truetype');
+  }
+@import "loading";
+@import "reproductor";
+@import "navbar";
+@import "card";
+@import "card2";
+@import "card3";
+@import "card4";
+@import "card5";
+@import "btn";
+@import "cubo";
+@import "navbar2";
+
+
+
+  

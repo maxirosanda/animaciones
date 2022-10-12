@@ -1,0 +1,34 @@
+
+
+  .BtnCompra{
+    width: 112px;
+    border: 0;
+    padding: 12px 10px 10px 23px;
+    outline: none;
+    color: rgb(255, 255, 255);
+    background: linear-gradient(to right, #ff36c6, #f48210 );
+    border-radius: 6px;
+    cursor: pointer;
+    transition:  .7s;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.BtnCompra::after{
+  content: "\f178";
+  font-family: "fontAwesome";
+  color: white;
+  opacity: 0;
+  transition: 0.7s;
+}
+.BtnCompra:hover{
+  width:160px;
+  
+}
+.BtnCompra:hover::after{
+  opacity: 1;
+}
+
+
