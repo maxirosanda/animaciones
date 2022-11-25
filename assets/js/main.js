@@ -1,7 +1,21 @@
 //----------------loading--------------------------------
 const loaderContainer = document.querySelector('.loading');
+let inicio = new Date;
+
 window.addEventListener('load', () => {
-    loaderContainer.style.display = 'none';
+    
+    let fin = new Date;
+    let segundos = (fin-inicio);
+
+    if(segundos < 2000){
+        setTimeout(() => {
+            loaderContainer.style.display = 'none';
+        }, 2000);
+    }else{
+        loaderContainer.style.display = 'none';
+    }
+   console.log(segundos)
+    
 });
 //--------------------------------------------------------
 
@@ -22,7 +36,7 @@ function labnolThumb(id) {
  
 function labnolIframe() {
     var iframe = document.createElement("iframe");
-    iframe.setAttribute("src", "https://www.youtube.com/embed/" + this.parentNode.dataset.id + "?autoplay=1&autohide=2&border=0&wmode=opaque&enablejsapi=1&controls=1&showinfo=0");
+    iframe.setAttribute("src", "https://www.youtube.com/embed/" + this.parentNode.dataset.id + "?autoplay=1&muted=1&autohide=2&border=0&wmode=opaque&enablejsapi=1&controls=1&showinfo=0");
     iframe.setAttribute("frameborder", "0");
     iframe.setAttribute("id", "youtube-iframe");
     iframe.setAttribute("autoplay", "1");
