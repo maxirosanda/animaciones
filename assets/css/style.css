@@ -101,6 +101,12 @@ object {
   color: white;
 }
 
+.paisajes > img {
+  width: 200px;
+  height: 100px;
+  object-fit: cover;
+}
+
 .navbar {
   width: 100vw;
   height: 70px;
@@ -694,4 +700,4 @@ object {
 .navbar2 ul li a:hover::before, .navbar2 ul li a:hover::after {
   transform: translate(0, 0);
   opacity: 1;
-}/*# sourceMappingURL=style.css.map */
+}
