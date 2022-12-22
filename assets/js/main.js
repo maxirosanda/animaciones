@@ -1,3 +1,4 @@
+
 //----------------loading--------------------------------
 const loaderContainer = document.querySelector('.loading');
 let inicio = new Date;
