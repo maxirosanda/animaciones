@@ -702,7 +702,6 @@ object {
   opacity: 1;
 }
 
-animate{
-  background-color: #ee701c;
+#svg-fondo {
+  position: absolute;
 }
-
