@@ -28,16 +28,10 @@
     padding: 15px;
     z-index: 3;
     opacity: 0;
-    transition: 1s all;
+    transition: 1s;
 
   }
-
-  .card2:hover .info{
-    opacity: 1;
-    bottom: 0;
-  }
-
-  .card2 .btn2 {
+.card2 .btn2 {
     border: 0;
     text-align: center;
     background-color: brown;
@@ -48,6 +42,12 @@
     
   }
 
+  .card2:hover .info{
+    opacity: 1;
+    bottom: 0;
+  }
+
+  
 
   .card2::before{
     content: "";
